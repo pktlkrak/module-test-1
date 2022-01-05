@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
     res.json({ message: "es6 modules are awesome but tiring sometimes" });
 });
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(parseInt(process.env.PORT || 3000), function () {
     return console.log("serwer listening - port 3000");
 });
 //# sourceMappingURL=index.js.map
